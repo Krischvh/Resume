@@ -1,46 +1,49 @@
 *{
-    margin:0px;
-    padding:0px;
-    border: 0px;
-    font-family: "Montserrat", sans-serif;
-    
+   margin:0;
+   padding: 0;
+   border:0;
+   font-family: 'Lato',sans-serif;
 }
 
-header { 
-    border:3px solid black;
-    margin: 10px;
-    padding: 50px;
-    background-color:rgb(255, 102, 179);
- }
-
- main {
-    background-color:rgb(255, 198, 233);
-    border:3px solid black;
-    margin: 10px;
-    padding: 50px;
-
-    
+.header{
+   background-color: rgb(181, 226, 249);
+   margin-top: 20px;
+   margin-left: 80px;
+   margin-right: 80px;
+   border: 3px solid rgb(81, 105, 225);
+   text-align: center;
+   padding:20px;
 }
- 
- footer {
-   border:3px solid black;
-    margin: 10px;
-    padding: 50px;
-    background-color:rgb(255, 102, 179);
- }
 
- .flex-container {
-    display:flex;
- }
+.sidebar{
+   background-color: rgb(181, 226, 249);
+   margin-top: 20px;
+   margin-left: 80px;
+   margin-right: 80px;
+   border: 3px solid rgb(81, 105, 225);
+   float:right;
+}
 
- .flex-item {
-    text-align:center;
-    font-size: 1.1em;
-    padding: 1.5em;
-    color: white;
- }
+.main{
+   background-color: rgb(181, 226, 249);
+   margin-top: 20px;
+   margin-left: 80px;
+   margin-right: 200px;
+   border: 3px dotted rgb(81, 105, 225);
+}
 
-    .color1 {background-color: #675BA7;}
-    .color2 {background-color: #9BC850;}
-    .color3 {background-color: #A62E5C;}
-    .color4 {background-color: #a64a2e;}
+.footer{
+   background-color: rgb(181, 226, 249);
+   margin-top: 20px;
+   margin-left: 80px;
+   margin-right: 80px;
+   border: 3px solid rgb(81, 105, 225);
+}
+
+ul{
+   list-style-type: none;
+}
+
+h2{
+   text-align: center;
+}
