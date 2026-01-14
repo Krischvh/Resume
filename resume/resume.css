@@ -15,21 +15,25 @@
    padding:20px;
 }
 
-.sidebar{
+.box1{
    background-color: rgb(181, 226, 249);
    margin-top: 20px;
-   margin-left: 80px;
    margin-right: 80px;
-   border: 3px solid rgb(81, 105, 225);
+   margin-left: 80px;
+}
+
+.sidebar{
+   margin-left: 80px;
    float:right;
+   border: 3px dotted rgb(81, 105, 225);
+   background-color: rgb(181, 226, 249);
+   
 }
 
 .main{
-   background-color: rgb(181, 226, 249);
-   margin-top: 20px;
-   margin-left: 80px;
    margin-right: 200px;
    border: 3px dotted rgb(81, 105, 225);
+   background-color: rgb(181, 226, 249);
 }
 
 .footer{
